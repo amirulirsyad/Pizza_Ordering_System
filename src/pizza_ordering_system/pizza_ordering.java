@@ -363,22 +363,22 @@ public class pizza_ordering extends javax.swing.JFrame {
         }
         else if(pAloha.isSelected()== true)
         {
-            item = "Aloha Chicken";
+            item = "Aloha Chicken\t";
             price = 14;
         }
         else if(pDouble.isSelected()== true)
         {
-            item = "Double Pepporoni";
+            item = "Double Pepporoni\t";
             price = 18;
         }
         else if(pVeggie.isSelected()== true)
         {
-            item = "Veggie Delight";
+            item = "Veggie Delight\t";
             price = 12;
         }
         else if(pSeafood.isSelected()== true)
         {
-            item = "Seafood Sensation";
+            item = "Seafood  Sensation";
             price = 20;
         }
         else if(pChicken.isSelected()== true)
@@ -505,14 +505,13 @@ public class pizza_ordering extends javax.swing.JFrame {
             }
             for(int i = 0;i<jTable1.getRowCount();i++) 
             {
-                if(i == (jTable1.getRowCount()-1))
-                {
+                fmt = new Formatter();
                     txtReceipt.append("\n"+fmt.format("%1$-20s %2$-10s %3$-10s %4$-10s\n"
                     ,productName[i]
                     ,price[i]
                     ,qty[i]
                     ,tot[i]));
-                }
+                
                 
             
             }
