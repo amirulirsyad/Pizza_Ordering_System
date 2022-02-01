@@ -459,32 +459,32 @@ public class pizza_ordering extends javax.swing.JFrame {
         // TODO add your handling code here:
         if(pHawaiian.isSelected()== true)
         {
-            item = "Hawaiian Chicken";
+            item = "Hawaiian Chicken            ";
             price = 15;
         }
         else if(pAloha.isSelected()== true)
         {
-            item = "Aloha Chicken\t";
+            item = "Aloha Chicken                   ";
             price = 14;
         }
         else if(pDouble.isSelected()== true)
         {
-            item = "Double Pepporoni\t";
+            item = "Double Pepporoni            ";
             price = 18;
         }
         else if(pVeggie.isSelected()== true)
         {
-            item = "Veggie Delight\t";
+            item = "Veggie Delight                   ";
             price = 12;
         }
         else if(pSeafood.isSelected()== true)
         {
-            item = "Seafood  Sensation";
+            item = "Seafood  Sensation          ";
             price = 20;
         }
         else if(pChicken.isSelected()== true)
         {
-            item = "Chicken & Pineapple";
+            item = "Chicken & Pineapple       ";
             price = 16;
         }
         
@@ -607,7 +607,7 @@ public class pizza_ordering extends javax.swing.JFrame {
             for(int i = 0;i<jTable1.getRowCount();i++) 
             {
                 fmt = new Formatter();
-                    txtReceipt.append("\n"+fmt.format("%1$-20s %2$-10s %3$-10s %4$-10s\n"
+                    txtReceipt.append("\n"+fmt.format("%1$-20s %2$-15s %3$-10s %4$-10s\n"
                     ,productName[i]
                     ,price[i]
                     ,qty[i]
