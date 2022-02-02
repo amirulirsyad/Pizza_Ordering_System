@@ -5,10 +5,12 @@
  */
 package pizza_ordering_system;
 
+import java.awt.Component;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import javax.swing.table.DefaultTableModel;
 import java.util.Formatter;
+import javax.swing.JTextField;
 
 /**
  *
