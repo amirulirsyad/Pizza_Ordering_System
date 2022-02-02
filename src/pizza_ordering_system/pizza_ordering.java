@@ -565,12 +565,6 @@ public class pizza_ordering extends javax.swing.JFrame {
         
         //remove qty
         txtQty.setValue(0);
-        
-        
-         
-        
-
-        
     }//GEN-LAST:event_ResetBtnActionPerformed
 
     private void ReceiptBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReceiptBtnActionPerformed
